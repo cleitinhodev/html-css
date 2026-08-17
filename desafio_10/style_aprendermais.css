@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+main {
+    border-radius: 0px 0px 10px 10px;
+}
+
+section#aprender_mais > div {
+    background-color: rgb(50, 97, 50);
+    margin:  0px 20px 0px 20px;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+section#aprender_mais > article {
+    background-color: rgb(184, 255, 199);
+    margin:  0px 20px 0px 20px;
+    border-radius: 0px 0px 10px 10px;
+    padding: 15px;
+}
+
+section#aprender_mais > div > h2 {
+    margin: 20px 20px 0px 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: 1.4em;
+    padding: 8px;
+    color: azure;
+    text-align: center;
+}
+
+section#aprender_mais > article > p {
+    margin: 0px 20px 20px 20px;
+    padding: 0px 0px 0px 0px;
+}
+
+section#aprender_mais > article > ul {
+    columns: 2;
+}
+
+section#aprender_mais > p {
+    padding: 0px 0px 20px 0px;
+}

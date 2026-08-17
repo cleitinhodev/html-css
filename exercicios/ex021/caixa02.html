@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: cadetblue;
+        }
+        header {
+            background-color: azure;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 15px; /*arredonda os 4 lados*/
+        }
+
+        nav {
+            background-color: black;
+            color: azure;
+            padding: 5px;
+            box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.377); /* Posições embaçamento e cor*/
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            background-color: azure;
+            color: black;
+        }
+
+        .menu {
+            color: azure;
+            text-decoration: none;
+            margin: auto 1px;
+            padding: 4px 30px;
+        }
+
+        main {
+            background-color: azure;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 0px 15px 0px 15px; /*arredonda lados específicos*/
+        }
+        footer {
+            background-color: black;
+            color: azure;
+            padding: 5px;
+            margin: 10px;
+            text-align: center;
+        }
+        footer > p {
+            margin: 1px;
+        }
+        article {
+            background-color: rgb(187, 245, 245);
+            padding: 5px 20px;
+        }
+
+        article > aside {
+            background-color: rgb(134, 211, 211);
+            text-align: right;
+            padding: 2px;
+            border-radius: 15px 0px 15px 0px;
+        }
+
+        article > aside > p {
+            margin: 3px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="" class="menu">Link</a>
+            <a href="" class="menu">Link</a>
+            <a href="" class="menu">Link</a>
+            <a href="" class="menu">Link</a>
+            <a href="" class="menu">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política e Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ratione nobis non ut doloribus deleniti debitis architecto iure officiis hic, esse aspernatur. Quod assumenda reprehenderit ex fugit, numquam ullam consequatur?</p>
+                <aside>
+                    <p>Artigo escrito por Desenvolvedor</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo desenvolvedor!</p>
+    </footer>
+</body>
+</html>

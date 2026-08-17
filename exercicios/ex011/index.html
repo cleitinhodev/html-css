@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>tente abrir este site em vários dispositivos diferentes ou simplesmente redimensione seu navegador</p>
+    <picture>
+        <source media="(max-width: 144px)" srcset="img/shogun_144.png" type="image/png">
+        <source media="(max-width: 500px)" srcset="img/shogun_500.png" type="image/png">
+        <source media="(max-width: 700px)" srcset="img/shogun_700.png" type="image/png">
+        <source media="(max-width: 1200px)" srcset="img/shogun_1200.png" type="image/png">
+        <img src="img/shogun_1200.png" alt="Imagem Flexível">
+    </picture>
+
+    <h1>Também podemos colocar música</h1>
+    <audio src="media/Moonlit Quest.mp3" autoplay controls></audio>
+
+</body>
+</html>
